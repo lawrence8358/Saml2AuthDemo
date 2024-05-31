@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saml2AuthDemo", "Saml2AuthDemo.csproj", "{D2A81B97-5CBB-412B-9DE9-DC071A03055A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2A81B97-5CBB-412B-9DE9-DC071A03055A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A81B97-5CBB-412B-9DE9-DC071A03055A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A81B97-5CBB-412B-9DE9-DC071A03055A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A81B97-5CBB-412B-9DE9-DC071A03055A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B578BC9-CC18-4D5F-87E3-C827A596BA4B}
+	EndGlobalSection
+EndGlobal

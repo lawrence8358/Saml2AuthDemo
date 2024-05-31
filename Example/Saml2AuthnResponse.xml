@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<saml2p:Response Destination="https://374b-211-22-243-226.ngrok-free.app/api/saml/AssertionConsumerService" ID="id45566904770597381478935601" InResponseTo="id90996e571b7844feb8b94fd95c102168" IssueInstant="2024-05-17T14:47:53.417Z" Version="2.0" xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+		<saml2:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">http://www.okta.com/exkh4j3be2SlTg3135d7</saml2:Issuer>
+		<saml2p:Status xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+				<saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+		</saml2p:Status>
+		<saml2:Assertion ID="id45566904772476121519035075" IssueInstant="2024-05-17T14:47:53.417Z" Version="2.0" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+				<saml2:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">http://www.okta.com/exkh4j3be2SlTg3135d7</saml2:Issuer>
+				<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+						<ds:SignedInfo>
+								<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+								<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+								<ds:Reference URI="#id45566904772476121519035075">
+										<ds:Transforms>
+												<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+												<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+														<ec:InclusiveNamespaces PrefixList="xs" xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+												</ds:Transform>
+										</ds:Transforms>
+										<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+										<ds:DigestValue>yAQqf8jW3iPEg9OAWusWHzXh9pnaaCbL2U4NTHbsLZk=</ds:DigestValue>
+								</ds:Reference>
+						</ds:SignedInfo>
+						<ds:SignatureValue>qvdmZw2FwMOSx55S5avUMrhCp/SEuxcUASr1BqOjLjdItBvLqEBhEed+KiruSyolEVqyT+qYDMstLuZIV3FBpcip4awjNXe8LO3NWLUoJ3EK6CVG5m5fF3dOx4E5O1gFkXbqzDMD7mp9tx/K0jKzzoRNbZI0c9DHedr949Cdp7LAB/SEApRUbxfoaj4nwFYljLoa5kgOwBxivHi0XcGuTFrc1ROGH/cuZGokxdAtuFAgZRE+WljAplDsqW6FvX+q3JQ45jN1TWxQMIQBPH4Vr2nXRQuELFmfUhcBAfxLnAFFwBBLkDNW4GlxfhXHdRvWsBX+W8PLxxxOyIkLMrJK0g==</ds:SignatureValue>
+						<ds:KeyInfo>
+								<ds:X509Data>
+										<ds:X509Certificate>
+												MIIDqDCCApCgAwIBAgIGAY+AmL99MA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJVUzETMBEG
+												A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+												MBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi0yMDkyOTczNTEcMBoGCSqGSIb3DQEJ
+												ARYNaW5mb0Bva3RhLmNvbTAeFw0yNDA1MTYwODQ5NDVaFw0zNDA1MTYwODUwNDVaMIGUMQswCQYD
+												VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsG
+												A1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi0yMDkyOTczNTEc
+												MBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+												ggEBAL3rsRq+QLunhbxBECrKXb++zFFab1qU2x8ml1+V8gt5c/qrw292127MjtJwhWDC1B6aZiUY
+												LYw6dblfKx23nUslerXPylGxGnrb7nPfT7ztL2RfiEu/6vnVO5e5+ZnzpWxhpkQzJPk6D9Wbgy8i
+												TKZhAc8Mmx/jXiJzbtaaXlAsmWMy71rWf4cpI7+7pNV7Va3bH6xPej7UWEzjXDsuqV8HOOOf+br9
+												i3wdwR31rl7WaR60GqZ3eUvdRCCPUGwjP7l0Y6wXAUUIx5ms7AHoC2Q6tQ4k5Mrypu8hbhfmrai4
+												DZ71VuIGDhI8y2zjTg5RfFXcg30YW6LiH8ISth5UYb0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+												Li4PwbvjToXdQHRmEyX6GzqjnGTmq5xeh7dKM1+V0IZwE10CEZvKi+p5qsiWiOchT9xEnbstbu+h
+												TTj/WOhBjYde9fkHru+zswXxVobFwcqceYwLOZSdIDPzZijoYX7Mk4EJ69sO2iRNOmV3tOxDp/s3
+												7hAPU4P+vOs8w9eeHWI7ontdl0iZ8RosxF0qI99IiWtIyq4zmePcH40DPrBlLXhMGfDLXR7Rr8Fg
+												JsdpySz2R9XxIpmxbT0W5L/Ta2gABuY0dDjq2kjmiZ04X9FtoGE12kvAYBiKM5IK1bWpCyJ5X/cW
+												p2NBEA20wMqoCYuLvbiq1OSHlIevUvkFyrPmgA==
+										</ds:X509Certificate>
+								</ds:X509Data>
+						</ds:KeyInfo>
+				</ds:Signature>
+				<saml2:Subject xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+						<saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">other@primeeagle.net</saml2:NameID>
+						<saml2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+								<saml2:SubjectConfirmationData InResponseTo="id90996e571b7844feb8b94fd95c102168" NotOnOrAfter="2024-05-17T14:52:53.418Z" Recipient="https://374b-211-22-243-226.ngrok-free.app/api/saml/AssertionConsumerService"/>
+						</saml2:SubjectConfirmation>
+				</saml2:Subject>
+				<saml2:Conditions NotBefore="2024-05-17T14:42:53.418Z" NotOnOrAfter="2024-05-17T14:52:53.418Z" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+						<saml2:AudienceRestriction>
+								<saml2:Audience>https://374b-211-22-243-226.ngrok-free.app/api/saml/Entrypoint</saml2:Audience>
+						</saml2:AudienceRestriction>
+				</saml2:Conditions>
+				<saml2:AuthnStatement AuthnInstant="2024-05-17T14:47:53.417Z" SessionIndex="id90996e571b7844feb8b94fd95c102168" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+						<saml2:AuthnContext>
+								<saml2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml2:AuthnContextClassRef>
+						</saml2:AuthnContext>
+				</saml2:AuthnStatement>
+				<saml2:AttributeStatement xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+						<saml2:Attribute Name="Test" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+								<saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">other@primeeagle.net</saml2:AttributeValue>
+						</saml2:Attribute>
+				</saml2:AttributeStatement>
+		</saml2:Assertion>
+</saml2p:Response>

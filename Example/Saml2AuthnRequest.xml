@@ -1,0 +1,8 @@
+﻿<samlp:AuthnRequest xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+				xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+				ID="_5e018ff0-9946-4d6a-ad1a-ce803683a3d0" 
+				Version="2.0"
+				IssueInstant="2024-05-23T09:28:54.158Z"
+				Destination="https://dev-20929735.okta.com/app/dev-20929735_mydemo_2/exkh4j3be2SlTg3135d7/sso/saml">
+		<saml:Issuer>LawrenceService</saml:Issuer>
+</samlp:AuthnRequest>
